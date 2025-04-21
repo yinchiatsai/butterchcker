@@ -306,6 +306,15 @@
             monthlyTotalSpan.textContent = (goodsTotal + shippingTotal).toFixed(2);
         }
 
+        const dateInput = document.getElementById("date");
+const itemInput = document.getElementById("item");
+const quantityInput = document.getElementById("quantity");
+const arrivalDaysInput = document.getElementById("arrivalDays");
+const costInput = document.getElementById("cost");
+const shippingInput = document.getElementById("shipping");
+const urlInput = document.getElementById("url");
+
+
         form.addEventListener("submit", e => {
             e.preventDefault();
             const date = form.date.value;
